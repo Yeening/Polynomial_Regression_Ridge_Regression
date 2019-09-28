@@ -32,3 +32,4 @@ if __name__ == "__main__":
     file = open("dataPoly.txt","w") # write x and y tab seperated to a file
     for elem in list(zip(x, y)):
         file.write(str(elem[0]) + "\t" + str(elem[1]) + "\n")
+    file.close()
